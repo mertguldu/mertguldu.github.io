@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMG - Essays</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 95%;
+            margin: auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .bmg-title {
+		    position: fixed;
+		    top: 20px; /* Adjust this value as needed */
+		    left: 20px; /* Adjust this value as needed */
+		    font-size: 1.5em;
+		    color: #2c3e50;
+		    z-index: 1000;
+		    background-color: #f4f4f4;
+		    padding: 10px;
+		    border-radius: 5px;
+		}
+		.container {
+		    padding-top: 80px; /* Adjust this value to ensure content is not hidden behind the fixed title */
+		    display: flex;
+		}
+
+        aside {
+		    width: 150px;
+		    background: #2c3e50;
+		    color: #ecf0f1;
+		    box-sizing: border-box;
+		    border-radius: 10px;
+		    padding: 15px;
+		    position: fixed;
+		    top: 80px; /* Adjust this value based on the title position */
+		    left: 20px; /* Matches the left position of .bmg-title */
+		}
+        aside h3 {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            align-self: center;
+            width: 100%;
+            text-align: center;
+        }
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        aside ul li {
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        aside a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.9em;
+        }
+        aside a:hover {
+            color: #e74c3c;
+        }
+        .content {
+		    margin-left: 200px; /* Ensure enough space for the fixed aside */
+		    flex-grow: 1;
+		    padding-left: 20px;
+		    box-sizing: border-box;
+		}        
+		.year {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .essay-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .essay-item {
+            margin-bottom: 20px;
+            display: flex;
+        }
+        .essay-date {
+		    width: 150px; /* Adjust as needed to align with the essay titles */
+		    font-weight: bold;
+		    margin-right: 20px;
+		}
+        .essay-title {
+            flex-grow: 1;
+            text-align: left;
+        }
+        .essay-title a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .essay-title a:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="bmg-title">BMG</div>
+
+    <div class="container">
+    	<aside>
+            <!-- <h3>CATEGORY</h3> -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="essays.html">ESSAYS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="https://twitter.com/mertguldu">TWITTER</a></li>
+            </ul>
+        </aside>
+        <section class="content">
+            <div class="year">2022</div>
+            <ul class="essay-list">
+                <li class="essay-item">
+                    <div class="essay-date">18 Sep</div>
+                    <div class="essay-title"><a href="#">sdsd</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">14 Jul</div>
+                    <div class="essay-title"><a href="#">asdasdasdasd</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">16 May</div>
+                    <div class="essay-title"><a href="#">asdasdasdasdasd</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">10 May</div>
+                    <div class="essay-title"><a href="#">asdasdasdasdasdasdasdfsadf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">26 Jan</div>
+                    <div class="essay-title"><a href="#">sadfsadfadfasdfasdfasdfasdf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">20 Jan</div>
+                    <div class="essay-title"><a href="#">sadfsdfasdfsadfasdfasdfasdfasdfasdf</a></div>
+                </li>
+            </ul>
+
+            <div class="year">2021</div>
+            <ul class="essay-list">
+                <li class="essay-item">
+                    <div class="essay-date">25 Mar</div>
+                    <div class="essay-title"><a href="#">asdfasdfasdfasdfasdfasdfasdf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">25 Mar</div>
+                    <div class="essay-title"><a href="#">sadfsadfsadfsadfsadfsadfasdf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">19 Mar</div>
+                    <div class="essay-title"><a href="#">sadfsadfsadfsadfsadfasdfasdfsadfsdf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">08 Mar</div>
+                    <div class="essay-title"><a href="#">sadfsadfsadfsadfsadfsdfsadf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">14 Feb</div>
+                    <div class="essay-title"><a href="#">sadfsdafsadfsdafsafdsadfsadfsadfasdfasdfdsafsdafsadf</a></div>
+                </li>
+                <li class="essay-item">
+                    <div class="essay-date">10 Jan</div>
+                    <div class="essay-title"><a href="#">sadfasdfsdafsadfsadfsdfsadfsadfdsfsd</a></div>
+                </li>
+            </ul>
+
+            <div class="year">2020</div>
+            <!-- Add 2020 essays here following the same structure -->
+        </section>
+    </div>
+</body>
+</html>

@@ -1,1 +1,136 @@
-"Hello World"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMG</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 95%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }        
+        header a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .content-wrapper {
+            display: flex;
+            margin-top: 20px;
+            align-items: flex-start;
+        }
+        aside {
+            width: 150px;
+            background: #2c3e50;
+            color: #ecf0f1;
+            box-sizing: border-box;
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        aside h3 {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            align-self: center;
+            width: 100%;
+            text-align: center;
+        }
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        aside ul li {
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        aside a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.9em;
+        }
+        aside a:hover {
+            color: #e74c3c;
+        }
+        .content {
+            flex-grow: 1;
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+        article {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        article h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        article small {
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BMG</h1>            
+        </div>
+    </header>
+
+    <div class="container content-wrapper">
+        <aside>
+            <!-- <h3>CATEGORY</h3> -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="essays.html">ESSAYS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="https://twitter.com/mertguldu">TWITTER</a></li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <article>
+                <h2>Blog Post Title</h2>
+                <small>Posted on May 1, 2023 by John Doe</small>
+                <p>This is the content of your blog post. You can write about anything you want here. This is where you'd share your thoughts, ideas, or any other information you want to convey to your readers.</p>
+                <p>You can add multiple paragraphs, images, and other HTML elements to make your post more engaging and informative.</p>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
